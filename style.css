@@ -105,12 +105,22 @@ nav {
 .nav__item {
 	margin: 0 10px;
 }
-.profile__img {
+.profile__pic {
 	width: 120px;
 	overflow: hidden;
-	border-radius: 25px;
+	border-radius: 20px;
 }
-.profile {
+.profile-info {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+.name {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+}
+.job {
+	font-size: 20px;
+	font-weight: 400;
 }
