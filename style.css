@@ -90,41 +90,67 @@ h6 {
 	font-weight: 400;
 }
 
+body {
+	font-family: 'Lato';
+}
+
 .content-wrapper {
-	max-width: 60%;
+	max-width: 70%;
 	margin: 0 auto;
-	text-align: center;
+	box-shadow: 5px 5px 5px 5px rgb(177, 175, 175);
 }
-nav {
-	border: 1px solid;
+.section {
+	padding: 15px;
 }
-.nav__list {
+.profile {
 	display: flex;
-	justify-content: center;
-}
-.nav__item {
-	margin: 0 10px;
-}
-.profile__pic {
-	width: 120px;
-	overflow: hidden;
-	border-radius: 20px;
-}
-.profile-info {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(51, 51, 51);
+	color: aliceblue;
+	padding: 15px;
 }
 .name {
 	text-transform: uppercase;
-	font-size: 25px;
+	font-size: 28px;
 	font-weight: 700;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
 }
 .job {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 400;
+	margin-bottom: 5px;
+	color: rgba(255, 255, 255, 0.700);
+}
+.profile__desc	{
+	align-self: center;
+}
+.contacts>p>a {
+	color: rgb(255, 255, 255, 0.700);
+	text-decoration: underline;
+}
+.contact__item {
+	display: inline-block;
+	margin: 2px 5px;
+	color: rgb(255, 255, 255, 0.712);
+}
+.section__title {
+	color: rgba(0, 0, 0, 0.856);
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #000;
+}
+.section-content {
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+}
+.courses__link {
+	color: rgb(133, 102, 247);;
 }
 
-.section {
-	border: 1px solid;
+a:hover {
+	text-decoration: underline;
 }
