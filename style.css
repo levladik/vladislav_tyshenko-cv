@@ -91,7 +91,7 @@ h6 {
 }
 
 .content-wrapper {
-	max-width: 70%;
+	max-width: 60%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -123,4 +123,8 @@ nav {
 .job {
 	font-size: 20px;
 	font-weight: 400;
+}
+
+.section {
+	border: 1px solid;
 }
