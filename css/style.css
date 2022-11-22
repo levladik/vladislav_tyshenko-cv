@@ -163,17 +163,18 @@ body {
 	font-size: 1.5rem;
 }
 .skills {
-	border: 1px solid rgba(0, 0, 0, 0.068);
-	border-radius: 15px;
-	padding: 3px 5px;
-	background-color: rgba(211, 211, 211, 0.171);
+	display: inline-block;
 	font-size: 1.3rem;
-	line-height: 15px;
+	line-height: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.068);
+	background-color: rgba(211, 211, 211, 0.171);
+	border-radius: 8px;		
+	padding: 1px 5px;
 	white-space: nowrap;
-	margin-right: 2px;
+	margin-bottom: 3px;
 }
 .section__about-me_desc {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	line-height: 25px;
 }
 
@@ -193,6 +194,9 @@ a:hover {
 	.section-content {
 		line-height: 20px;
 	}
+	.section__about-me_desc {
+		line-height: 20px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -208,10 +212,18 @@ a:hover {
 	.section-content {
 		line-height: 15px;
 	}
+	.section__about-me_desc {
+		line-height: 15px;
+	}
 	.section {
 		padding: 5px 10px;
 	}
 	.section__desc {
 		padding: 0 5px;
+	}
+	.dot-black, .dot {
+		width: 3px;
+		height: 3px;
+		margin-bottom: 2px;
 	}
 }
