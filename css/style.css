@@ -67,7 +67,7 @@ body {
 	font-weight: 600;
 }
 .left-section-content {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	line-height: 15px;
 	margin-bottom: 10px;
 	padding: 10px 0;
@@ -76,7 +76,10 @@ body {
 .left-section-content>ul>li {
 	display: inline-block;
 	color: rgb(255, 255, 255, 0.712);
+	padding-bottom: 2px;
+	font-size: 1.3rem;
 }
+
 
 .section__title {
 	color: rgba(0, 0, 0, 0.856);
@@ -126,11 +129,14 @@ body {
 	background-color: aliceblue;
 	border-radius: 50%;
 	display: inline-block;
-	margin-bottom:1.5px;
+	margin-bottom:3px;
 }
 
 .job {
 	padding-bottom: 20px;
+}
+.job:last-child {
+	padding-bottom: 0;
 }
 .job__title {
 	font-size: 1.6rem;
